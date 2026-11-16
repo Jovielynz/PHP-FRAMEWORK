@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 44" width="64" height="44">
+  <defs>
+    <linearGradient id="rgb" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FF3B3B"/>
+      <stop offset="50%" stop-color="#E10600"/>
+      <stop offset="100%" stop-color="#FF6B6B"/>
+    </linearGradient>
+  </defs>
+  <!-- controller body -->
+  <path d="M14 8 h36 a10 10 0 0 1 10 10 l2 14 a6 6 0 0 1 -11 3 l-5 -7 h-28 l-5 7 a6 6 0 0 1 -11 -3 l2 -14 a10 10 0 0 1 10 -10 z"
+        fill="#1A1214" stroke="url(#rgb)" stroke-width="3"/>
+  <!-- d-pad -->
+  <rect x="17" y="18" width="4" height="12" rx="1" fill="url(#rgb)"/>
+  <rect x="13" y="22" width="12" height="4" rx="1" fill="url(#rgb)"/>
+  <!-- buttons -->
+  <circle cx="44" cy="20" r="2.6" fill="#FF3B3B"/>
+  <circle cx="50" cy="24" r="2.6" fill="#FF6B6B"/>
+  <circle cx="38" cy="24" r="2.6" fill="#E10600"/>
+  <circle cx="44" cy="28" r="2.6" fill="#B30000"/>
+</svg>
